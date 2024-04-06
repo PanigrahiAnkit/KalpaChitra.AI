@@ -116,7 +116,7 @@ const Home = () => {
     <Container>
       <Headline>
         Explore popular posts in the Community!
-        <Span>⦿ Generated with AI ⦿</Span>
+        <Span>⦿ Generated with Kalpa-Chitra.AI⦿</Span>
       </Headline>
       <SearchBar search={search} setSearch={setSearch} />
       <Wrapper>
