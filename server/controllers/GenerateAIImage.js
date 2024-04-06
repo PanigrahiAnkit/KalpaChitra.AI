@@ -15,7 +15,7 @@ const openai = new OpenAIApi(configuration);
 export const generateImage = async (req, res, next) => {
   try {
     const { prompt } = req.body;
-
+    console.log(prompt);
     const response = await openai.createImage({
       prompt,
       n: 1,
